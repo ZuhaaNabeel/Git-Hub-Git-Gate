@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+       background: url("join.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.header a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+.highlight {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff; 
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 24px;
+    color: #ccc; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333; 
+    color: #fff; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc; 
+}
+
+@media (max-width: 768px) { 
+    .header-content {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block; 
+        margin-right: 0; 
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding: 100px;
+    }
+
+    .hero h2 {
+        font-size: 28px; 
+    }
+
+    .hero p {
+        font-size: 16px; 
+    }
+}
